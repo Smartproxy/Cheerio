@@ -18,7 +18,7 @@ To run our example script, you are going to need a few libraries as well as Node
 1. Once you have your project directory ready for development with Cheerio.js, open it using Terminal/Command prompt utilising `cd` command.
 2. After that, execute the following command to download our proxy setup example file:
 
-`curl https://raw.githubusercontent.com/Smartproxy/Smartproxy/master/cheerio/cheerio.js > cheerio.js`
+`curl https://raw.githubusercontent.com/Smartproxy/Cheerio/master/cheerio.js > cheerio.js`
 
 <img src="https://i.imgur.com/hsJGFA6.png">
 
