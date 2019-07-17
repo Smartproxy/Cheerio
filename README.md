@@ -1,4 +1,11 @@
-## <img src="https://smartproxy.com/wp-content/themes/smartproxy/images/smartproxy-logo.svg" alt="" width="200" height="50"> 
+<p align="center">
+    <a href="https://smartproxy.com/"><img src="https://smartproxy.com/wp-content/themes/smartproxy/images/smartproxy-logo.svg" alt="Smartproxy logo" width="200" height="50"></a>
+  </a>
+</p>
+
+<p align="center">
+    <a href="https://github.com/Smartproxy/Smartproxy"> :house: Main Repository :house: </a>
+</p>
 
 ### Disclaimer
 
@@ -37,9 +44,6 @@ To run this example script, while in your project folder, run the following comm
 If you did everything correctly, you should see an IP appearing form our proxy server once script finishes running.
 
 <img src="https://i.imgur.com/QoCXHK6.png">
-
-## How to get started with Smartproxy?
-<br>[<img src="https://smartproxy.com/wp-content/uploads/2019/04/How-to-buy-Smartproxy-plans-now.svg">](https://dashboard.smartproxy.com/register)
 
 ## Contacts
 Email - sales@smartproxy.com
