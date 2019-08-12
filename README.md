@@ -33,7 +33,7 @@ To run our example script, you are going to need a few libraries as well as Node
 
 4. To setup your username, password and endpoint you would like to use, change the according line in within punctuation marks ('').
 
-<img src="https://i.imgur.com/JfYXAwC.png" "smartproxy cheerio http proxy configuration">
+<img src="https://i.imgur.com/JfYXAwC.png" alt="smartproxy cheerio http proxy configuration">
 
 ### Usage
 
