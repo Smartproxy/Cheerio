@@ -27,13 +27,13 @@ To run our example script, you are going to need a few libraries as well as Node
 
 `curl https://raw.githubusercontent.com/Smartproxy/Cheerio/master/cheerio.js > cheerio.js`
 
-<img src="https://i.imgur.com/hsJGFA6.png">
+<img src="https://i.imgur.com/hsJGFA6.png" alt="curl smartproxy cheerio code sample">
 
 3. You should see a new file named cheerio.js in your project folder. Edit it using an editor of your choice.
 
 4. To setup your username, password and endpoint you would like to use, change the according line in within punctuation marks ('').
 
-<img src="https://i.imgur.com/JfYXAwC.png">
+<img src="https://i.imgur.com/JfYXAwC.png" "smartproxy cheerio http proxy configuration">
 
 ### Usage
 
