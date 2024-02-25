@@ -1,20 +1,26 @@
-const request = require('request')
-const cheerio = require('cheerio')
+const axios = require('axios');
+const cheerio = require('cheerio');
 
-var options = {
-    proxy: 'http://username:password@gate.smartproxy.com:7000'
-};
-
-request('http://ip.smartproxy.com/', options, (error, response, html) => {
-  if(!error && response.statusCode == 200) {
-      const $ = cheerio.load(html);
-
-      const siteBody = $('body')
-
-      const output = siteBody.text();
-
-      console.log(output)
-  } else {
-      console.log('Something went wrong..')
-  }
-});
+(async () => {
+    try {
+        const response = await axios.get('https//ip.smartproxy.com/', {
+            proxy: {
+                protocol: 'http',
+                host: 'gate.smartproxy.com',
+                port: 7000,
+                auth: {
+                    username: 'username',
+                    password: 'password'
+                }
+            }
+        })        
+        const html = response.data;
+        const $ = cheerio.load(html);
+        const siteBody = $('body');
+        const output = siteBody.text();
+        console.log(output);
+    }
+    catch (error) {
+        console.log('Something went wrong...');
+    }
+})();
