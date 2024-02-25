@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 
 (async () => {
     try {
-        const response = await axios.get('https//ip.smartproxy.com/', {
+        const response = await axios.get('https://ip.smartproxy.com/', {
             proxy: {
                 protocol: 'http',
                 host: 'gate.smartproxy.com',
