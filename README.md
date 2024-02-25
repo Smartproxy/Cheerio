@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://smartproxy.com/"><img src="https://smartproxy.com/wp-content/themes/smartproxy/images/smartproxy-logo.svg" alt="Smartproxy logo" width="200" height="50"></a>
+    <a href="https://smartproxy.com/"><img src="https://snipboard.io/3IyORg.jpg"></a>
   </a>
 </p>
 
@@ -41,7 +41,7 @@ To run this example script, while in your project folder, run the following comm
 
 `node cheerio.js`
 
-If you did everything correctly, you should see an IP appearing form our proxy server once script finishes running.
+If you did everything correctly, you should see an IP appearing from our proxy server once the script finishes running.
 
 <img src="https://i.imgur.com/QoCXHK6.png">
 
